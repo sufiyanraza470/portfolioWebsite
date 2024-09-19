@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="web_test.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CodingLab</h1>
+            </div>
+            <div class="menu">
+                <ul type="none">
+                    <li><a href="/testweb/home.html">Home</a></li>
+                    <li><a href="/testweb/about.html">About</a></li>
+                    <li><a href="/testweb/service.html">Service</a></li>
+                    <li><a href="/testweb/contactUs.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="contectUs">
+        <div class="topHeading">
+            <h1 class="heading">Contact Us</h1>
+            <h3 class="contactCaption">We’re here to help! Reach out to us using the information below or fill out the
+                form.
+            </h3>
+        </div>
+        <div class="parentmain">
+            <div style="display: flex; gap: 100px; justify-content: space-between; flex-direction: column;">
+
+                <div class="mainform">
+                    <div class="text-information">
+                        <div class="icon">
+                            <img src="images/contactus/home.png" alt="home" class="iconhome">
+                        </div>
+                        <div>
+                            <h4 class="headingIcon">Address</h4>
+                            <p class="text-for-address">Mindigital Software Sharah-e-Faisal, Karachi</p>
+                        </div>
+                    </div>
+                    <div class="text-information">
+                        <div class="icon">
+                            <img src="images/contactus/call.png" alt="home" class="iconcall">
+                        </div>
+                        <div>
+                            <h4 class="headingIcon">Phone</h4>
+                            <p class="text-for-address">+123456789</p>
+                        </div>
+                    </div>
+
+                    <div class="text-information">
+                        <div class="icon">
+                            <img src="images/contactus/mail.png" alt="home" class="iconemail">
+                        </div>
+                        <div>
+                            <h4 class="headingIcon">Email</h4>
+                            <p class="text-for-address">sufiyan@mindigital.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="social-media-icons">
+                    <a href="https://www.instagram.com/sufi_hu_jana/" class="icon1" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100079707037852&mibextid=JRoKGi" class="icon2" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/yourprofile" class="icon3" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+            <div class="image-buttons">
+                <form id="contact-form" action="/submit" method="POST">
+                    <div class="form-group">
+                        <label for="">Enter Your Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="support">Support</option>
+                                <option value="sales">Sales</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <label for="">Enter Your Email Address</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Email" required>
+                        <label for="">Have Any Questions Feel Free to Ask</label>
+                        <textarea name="textarea" id="textarea" rows="3"></textarea>
+
+                        <button id="button" class="submit buttton" type="submit">Send Message</button>
+                    </div>
+
+    </section>
+    <footer>
+        <div class="menuFooter">
+            <ul type="none">
+                <li class="footerNav">Find a Store</li><br>
+                <li class="footerOption"><a href="#">See Our Locations</a></li>
+
+            </ul>
+            <ul type="none">
+                <li class="footerNav">Support</li><br>
+                <li class="footerOption"><a href="#">Online Help</a></li>
+                <li class="footerOption"><a href="#"> Service Centres</a></li>
+            </ul>
+            <ul type="none">
+                <li class="footerNav">Experience Sony</li><br>
+                <li class="footerOption"><a href="#">Eco</a></li>
+                <li class="footerOption"><a href="#"> YouTube</a></li>
+            </ul>
+            <ul type="none">
+                <li class="footerNav">News & Info</li><br>
+                <li class="footerOption"><a href="#">Press Centre</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <select class="dropdown">
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="uk">UK</option>
+                <option value="usa">USA</option>
+                <option value="usa">Afrika</option>
+                <option value="usa">Russia</option>
+            </select>
+            <div class="footermenu">
+                <ul type="none">
+                    <li><a href="/testweb/home.html">Home</a></li>
+                    <li><a href="/testweb/about.html">About</a></li>
+                    <li><a href="/testweb/service.html">Service</a></li>
+                    <li><a href="/testweb/contactUs.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <hr class="hr">
+
+        <p class="copyright">© Sufiyan Raza 2024. All Rights Reserved • <a class="Privacy" href="#"> Privacy Policy</a>
+        </p>
+
+
+
+    </footer>
+</body>
+
+</html>
